@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes Part2</title>
+    <link rel="stylesheet" href="part2.css">
+</head>
+<body class="main">
+    <div class="top">  
+        <div class="nav"><h1>Network</h1></div>
+        <div><h1 class="title">Your Feed</h1></div>
+    </div>
+    <div class="content">
+        <div class="profile postBox">
+            <div class="row">
+                <img src="imgs\user-circle.png" alt="user picture" class="profilePic">
+            </div>            
+            <div class="row"><a href="#">Add a avatar</a></div>
+            <div class="row"><h2>James Doe</h2></div> 
+        </div>
+        <div class="posts">
+            <div class="postBox">
+                <div class="header">
+                    <h1 class="userName">Neil M</h1>
+                    <div class="likeBox">
+                        <p id="numLikes">0 like(s)<p>    
+                        <button class="likeButton" onclick="addLike1()">Like</button>
+                    </div>
+                </div>
+                <p class="post">Bacon ipsum dolor amet ham kevin boudin, shank t-bone filet mignon sausage. Meatball beef chuck alcatra strip steak ribeye spare ribs.<a href="#">link</a></p>
+            </div>
+            <div class="postBox">
+                <div class="header">
+                    <h1 class="userName">Nichole K</h1>
+                    <div class="likeBox">
+                        <p id="numLikes2">0 like(s)<p>    
+                        <button class="likeButton" onclick="addLike2()">Like</button>
+                    </div>
+                </div>
+                <p class="post">Bacon ipsum dolor amet ham kevin boudin, <a href="#">next comic</a>shank t-bone filet mignon sausage.</p>
+            </div>
+            <div class="postBox">
+                <div class="header">
+                    <h1 class="userName">Some User</h1>
+                    <div class="likeBox">
+                        <p id="numLikes3">0 like(s)<p>    
+                        <button class="likeButton" onclick="addLike3()">Like</button>
+                    </div>
+                </div>
+                <p class="post">Bacon ipsum dolor amet ham kevin boudin, shank t-bone filet mignon sausage <a href="#">new album</a>. Meatball beef chuck alcatra strip steak ribeye spare ribs?</p>
+            </div>
+        </div>
+    </div>
+    <script src="part2.js"></script>
+</body>
+</html>
